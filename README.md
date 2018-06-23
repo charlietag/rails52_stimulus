@@ -10,6 +10,9 @@ Things you may want to cover:
 * Reference (GoRails)
   * https://www.youtube.com/watch?v=GEJWvMYU5_8
 
+* Reference this commit to see all the modification for stimulus
+  * https://github.com/charlietag/rails52_stimulus/commit/cca7e7363f71e21a068950aa6958291786b8ee16
+
 * Pros
   * It helps rails app to work well with turbolinks
   * It works well with asset pipeline
