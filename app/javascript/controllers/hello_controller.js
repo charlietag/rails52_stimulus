@@ -10,9 +10,25 @@
 import { Controller } from "stimulus"
 
 export default class extends Controller {
-  static targets = [ "output" ]
+  static targets = [ "output", "name" ]
 
+  // connect: Stimulus calls each time a controller is connected to the document
+  //   -- https://stimulusjs.org/handbook/hello-stimulus
   connect() {
-    this.outputTarget.textContent = 'Hello, Stimulus!'
+    //$('#myoutput').html('jQuery works!')
+    $('[data-target="hello.output"]').html('jQuery works!')
+    console.log('jQuery works!')
+
+  }
+
+  greet(event) {
+    this.outputTarget.textContent = 'Hello, ' + this.nameTarget.value + event
+    $('[data-target="hello.output"]').fadeOut( "slow" )
+  }
+
+  paste(event) {
+    event.preventDefault()
+    this.outputTarget.textContent = 'paste is not allowed! ' + event
+    $('[data-target="hello.output"]').fadeIn( "slow" )
   }
 }
