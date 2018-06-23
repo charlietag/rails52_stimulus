@@ -53,3 +53,9 @@ Things you may want to cover:
 | input type=submit | click         |
 | select            | change        |
 | textarea          | change        |
+
+* Just note
+  * stimulus controller method connect()
+    * will be evaluate twice with refresh.
+  * connect() -> log('a') -> disconnect() -> log('b')
+  * a -> b -> a
