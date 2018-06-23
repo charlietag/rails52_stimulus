@@ -43,6 +43,7 @@ Things you may want to cover:
 
 * Event references
   * https://stimulusjs.org/handbook/building-something-real
+
 | Element           | Default event |
 |-------------------|---------------|
 | a                 | click         |
