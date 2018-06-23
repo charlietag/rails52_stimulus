@@ -43,12 +43,12 @@ Things you may want to cover:
 
 * Event references
   * https://stimulusjs.org/handbook/building-something-real
-    | Element           | Default event |
-    |-------------------|---------------|
-    | a                 | click         |
-    | button            | click         |
-    | form              | submit        |
-    | input             | change        |
-    | input type=submit | click         |
-    | select            | change        |
-    | textarea          | change        |
+| Element           | Default event |
+|-------------------|---------------|
+| a                 | click         |
+| button            | click         |
+| form              | submit        |
+| input             | change        |
+| input type=submit | click         |
+| select            | change        |
+| textarea          | change        |
