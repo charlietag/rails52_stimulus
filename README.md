@@ -55,7 +55,7 @@ Things you may want to cover:
 | textarea          | change        |
 
 * Just note
-  * ----> OK, I found it's the same as before.... turbolinks conflicts... <-------
+  * ----> OK, I found it's the same as before.... turbolinks conflicts... <------- DON'T USE IT FOR NOW
   * stimulus controller method connect()
     * will be evaluate twice with refresh.
   * connect() -> log('a') -> disconnect() -> log('b')
